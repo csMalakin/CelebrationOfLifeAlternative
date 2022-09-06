@@ -529,49 +529,7 @@ input, select, textarea {
 
 
 
-/* Image */
 
-	.image {
-		border-radius: 3px;
-		border: 0;
-		display: inline-block;
-		position: relative;
-	}
-
-		.image img {
-			border-radius: 3px;
-			display: block;
-		}
-
-		.image.left {
-			float: left;
-			margin: 0 2em 2em 0;
-			top: 0.25em;
-		}
-
-		.image.right {
-			float: right;
-			margin: 0 0 2em 2em;
-			top: 0.25em;
-		}
-
-		.image.left, .image.right {
-			max-width: 40%;
-		}
-
-			.image.left img, .image.right img {
-				width: 100%;
-			}
-
-		.image.fit {
-			display: block;
-			margin: 0 0 2em 0;
-			width: 100%;
-		}
-
-			.image.fit img {
-				width: 100%;
-			}
 
 /* List */
 
@@ -1509,13 +1467,6 @@ input, select, textarea {
 
 		}
 
-	body.is-preload #banner p {
-		-moz-transform: scale(0.95);
-		-webkit-transform: scale(0.95);
-		-ms-transform: scale(0.95);
-		transform: scale(0.95);
-		opacity: 0;
-	}
 
 		body.is-preload #banner h2:before, body.is-preload #banner h2:after {
 			width: 0;
@@ -1612,6 +1563,8 @@ input, select, textarea {
 
 /* Landing */
 
+
+
 	body.landing #page-wrapper {
 		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/backgroundHeroHorizontal.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/backgroundHeroHorizontal.jpg#");
@@ -1622,6 +1575,22 @@ input, select, textarea {
 		background-repeat: no-repeat;
 		background-size: cover;
 		padding-top: 0;
+
+	}
+
+	@media (orientation: landscape) {
+		body.landing #page-wrapper {
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/backgroundHero.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/backgroundHero.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/backgroundHero.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/backgroundHero.jpg");
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding-top: 0;
+	
+		}
 	}
 
 	body.landing #footer {
@@ -1676,6 +1645,20 @@ input, select, textarea {
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
+	}
+	@media (orientation: landscape) {
+		#one{
+			background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/backgroundHero.jpg");
+			background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/backgroundHero.jpg");
+			background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/backgroundHero.jpg");
+			background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("../../images/backgroundHero.jpg");
+			background-attachment: fixed;
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			padding-top: 0;
+	
+		}
 	}
 
 	
@@ -1783,7 +1766,7 @@ input, select, textarea {
 
 		.portraitBild {
 		
-		max-height: 275px;
+		max-height: 350px;
 		border-radius: 0.6em;
 		margin: 1em;
 		/* display: inline-block */
@@ -1903,9 +1886,7 @@ input, select, textarea {
 			margin:0;
 			
 		}
-		/* #banner .inner img {
-			max-height: 100px;
-		} */
+	
 	}
 
 
