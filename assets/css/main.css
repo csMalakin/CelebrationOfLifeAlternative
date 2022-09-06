@@ -1426,10 +1426,10 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
 			transition: transform 0.75s ease, opacity 0.75s ease;
-			-moz-transition-delay: 5s;
-			-webkit-transition-delay: 5s;
-			-ms-transition-delay: 5s;
-			transition-delay: 5s;
+			-moz-transition-delay: 9s;
+			-webkit-transition-delay: 9s;
+			-ms-transition-delay: 9s;
+			transition-delay: 9s;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -1469,14 +1469,14 @@ input, select, textarea {
 
 		#banner:after {
 			pointer-events: none;
-			-moz-transition: opacity 3s ease-in-out;
-			-webkit-transition: opacity 3s ease-in-out;
-			-ms-transition: opacity 3s ease-in-out;
-			transition: opacity 3s ease-in-out;
-			-moz-transition-delay: 5s;
-			-webkit-transition-delay: 5s;
-			-ms-transition-delay:5s;
-			transition-delay: 5s;
+			-moz-transition: opacity 2s ease-in-out;
+			-webkit-transition: opacity 2s ease-in-out;
+			-ms-transition: opacity 2s ease-in-out;
+			transition: opacity 2s ease-in-out;
+			-moz-transition-delay: 7s;
+			-webkit-transition-delay: 7s;
+			-ms-transition-delay:7s;
+			transition-delay: 7s;
 			content: '';
 			background: #2e3842;
 			display: block;
@@ -1909,7 +1909,7 @@ input, select, textarea {
 	}
 
 
-	@media (orientation: landscape) {
+	/* @media (orientation: landscape) {
 	
 		#banner .more {
 			-moz-transition: -moz-transform 0.75s ease, opacity 0.75s ease;
@@ -1980,7 +1980,7 @@ input, select, textarea {
 		#banner .zitat {
 		max-width: 100%;	
 		}
-	}
+	} */
 
 	#one .trauerfeierDetails .signatur{
 		font-size: 2.5em;
@@ -2024,7 +2024,7 @@ input, select, textarea {
 }
 
 .fade-in{
-	animation: fade-in 2.5
+	animation: fade-in 1s
 }
 
 .fade-out {
@@ -2039,6 +2039,17 @@ input, select, textarea {
 	margin: 3em auto
 }
 
+.tableWrapper {
+	margin: 1em 0
+}
+
+.tableWrapper tbody{
+	margin:-2em;
+}
+
+.details {
+	margin: 1em 0;
+}
 
 @media screen and (max-width: 600px) {
 	.handwriting {
@@ -2049,3 +2060,4 @@ input, select, textarea {
 		font-size: 0.8em;
 	}
 }
+
