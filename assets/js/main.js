@@ -98,3 +98,7 @@ celebration.addEventListener('animationend', ()=>{
 	})
 	
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+	celebration.classList.toggle("hidden")
+ });
