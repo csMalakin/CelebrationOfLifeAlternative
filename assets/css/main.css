@@ -1783,7 +1783,7 @@ input, select, textarea {
 		
 		border:white 1px solid;
 		
-		margin:2em;
+		margin:0.5em;
 		
 		
 
@@ -2017,7 +2017,7 @@ input, select, textarea {
 }
 
 .center {
-	margin: 3em auto
+	margin: 0 auto
 }
 
 .tableWrapper {
