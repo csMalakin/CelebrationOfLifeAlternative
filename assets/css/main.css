@@ -68,7 +68,7 @@ ol, ul {
 
 table {
 	border-collapse: separate;
-	border-spacing: 0.75em;
+	border-spacing: 2em 0.75em;
 
 }
 
@@ -206,6 +206,27 @@ input, select, textarea {
 		@media (orientation:landscape) and (max-height: 801px) {
 
 			body, input, select, textarea {
+				font-size: 11pt;
+			}
+
+			#banner .portraitBild {
+				max-height: 250px;
+			}
+
+			#one .w65 {
+				max-width: 90%;
+				margin: 0 auto;
+				padding-top: 5%;
+				
+			}
+
+		}
+
+	
+
+		@media (orientation:landscape) and (max-height: 601px) {
+
+			body, input, select, textarea {
 				font-size: 9pt;
 			}
 
@@ -220,6 +241,12 @@ input, select, textarea {
 				
 			}
 
+		}
+
+		@media screen and (min-height:740px) {
+			#one .w65 {
+				padding-top:20%
+			}
 		}
 
 		
@@ -939,5 +966,5 @@ input, select, textarea {
 }
 .refreshments  {
 	margin-top: 2em;
-	font-size: 1.5em;
+	font-size: 0.75em;
 }
