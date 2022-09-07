@@ -203,6 +203,17 @@ input, select, textarea {
 		@media screen and (orientation:landscape){
 			#one .w65 {padding-top: 2%;
 		}}
+
+
+		@media (orientation:portrait) and (min-height:740px) {
+			#one .w65 {
+				padding-top:20%
+			}
+		}
+
+
+
+
 		@media (orientation:landscape) and (max-height: 801px) {
 
 			body, input, select, textarea {
@@ -224,6 +235,9 @@ input, select, textarea {
 
 	
 
+
+	
+		
 		@media (orientation:landscape) and (max-height: 601px) {
 
 			body, input, select, textarea {
@@ -241,12 +255,6 @@ input, select, textarea {
 				
 			}
 
-		}
-
-		@media screen and (min-height:740px) {
-			#one .w65 {
-				padding-top:20%
-			}
 		}
 
 		
