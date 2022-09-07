@@ -586,10 +586,10 @@ input, select, textarea {
 		transform: translateY(8.5em);
 		opacity: 0;
 	}
-
+*/
 	body.is-preload #banner:after {
 		opacity: 1;
-	} */
+	} 
 
 
 /* Footer */
