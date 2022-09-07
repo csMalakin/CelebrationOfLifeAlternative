@@ -491,10 +491,10 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.75s ease, opacity 0.75s ease;
 			-ms-transition: -ms-transform 0.75s ease, opacity 0.75s ease;
 			transition: transform 0.75s ease, opacity 0.75s ease;
-			-moz-transition-delay: 9s;
-			-webkit-transition-delay: 9s;
-			-ms-transition-delay: 9s;
-			transition-delay: 9s;
+			-moz-transition-delay: 11s;
+			-webkit-transition-delay: 11s;
+			-ms-transition-delay: 11s;
+			transition-delay: 11s;
 			-moz-transform: translateY(0);
 			-webkit-transform: translateY(0);
 			-ms-transform: translateY(0);
@@ -538,10 +538,10 @@ input, select, textarea {
 			-webkit-transition: opacity 2s ease-in-out;
 			-ms-transition: opacity 2s ease-in-out;
 			transition: opacity 2s ease-in-out;
-			-moz-transition-delay: 7s;
-			-webkit-transition-delay: 7s;
-			-ms-transition-delay:7s;
-			transition-delay: 7s;
+			-moz-transition-delay: 9s;
+			-webkit-transition-delay: 9s;
+			-ms-transition-delay:9s;
+			transition-delay: 9s;
 			content: '';
 			background: #2e3842;
 			display: block;
@@ -1041,8 +1041,12 @@ input, select, textarea {
 	animation: fade-in 2s
 }
 
+.fade-in-long{
+	animation: fade-in 7s
+}
+
 .fade-out {
-	animation: fade-out 2.5s;
+	animation: fade-out 2s;
 	animation-fill-mode: forwards;
 }
 .hidden {
