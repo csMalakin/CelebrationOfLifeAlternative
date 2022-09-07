@@ -541,7 +541,7 @@ input, select, textarea {
 			bottom: 0;
 			color: inherit;
 			font-size: 0.8em;
-			height: 13em;
+			height: 12em;
 			left: 50%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
@@ -563,7 +563,7 @@ input, select, textarea {
 				bottom: 4em;
 				content: '';
 				display: block;
-				height: 12em;
+				height: 11em;
 				left: 50%;
 				margin: 0 0 0 -0.75em;
 				position: absolute;
@@ -614,12 +614,12 @@ input, select, textarea {
 
 		@media screen and (max-height:801px) {
 		#banner .more {
-			height:9.5em
+			height:11.5em
 
 		}
 
 		#banner .more:after{
-			 height:6.5em
+			 height:9.5em
 		}
 	}
 
