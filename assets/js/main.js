@@ -102,3 +102,7 @@ celebration.addEventListener('animationend', ()=>{
 document.addEventListener('DOMContentLoaded', function() {
 	celebration.classList.toggle("hidden")
  });
+
+ $(window).load(function() {
+	$("body").removeClass("preload");
+  });
