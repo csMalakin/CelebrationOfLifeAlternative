@@ -509,7 +509,7 @@ input, select, textarea {
 			bottom: 0;
 			color: inherit;
 			font-size: 0.8em;
-			height: 14em;
+			height: 12em;
 			left: 50%;
 			letter-spacing: 0.225em;
 			margin-left: -8.5em;
@@ -531,7 +531,7 @@ input, select, textarea {
 				bottom: 4em;
 				content: '';
 				display: block;
-				height: 15em;
+				height: 11em;
 				left: 50%;
 				margin: 0 0 0 -0.75em;
 				position: absolute;
