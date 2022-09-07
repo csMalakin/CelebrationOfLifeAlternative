@@ -49,6 +49,7 @@
 				speed: 1500,
 				offset: $header.outerHeight()
 			});
+			
 
 	// Menu.
 		$('#menu')
@@ -79,6 +80,8 @@
 			});
 
 		}
+
+		
 
 })(jQuery);
 
