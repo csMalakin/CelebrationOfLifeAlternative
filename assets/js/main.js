@@ -106,6 +106,15 @@ document.addEventListener('DOMContentLoaded', function() {
 	celebration.classList.toggle("hidden")
  });
 
- $(window).load(function() {
-	$("body").removeClass("preload");
-  });
+//  $(window).load(function() {
+// 	$("body").removeClass("preload");
+//   });
+
+window.addEventListener(
+    'load',
+    function load()
+    {
+        window.removeEventListener('load', load, false);
+        document.body.classList.remove('preload');
+    },
+    false);
