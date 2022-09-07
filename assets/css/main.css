@@ -200,7 +200,9 @@ input, select, textarea {
 			padding-top: 15%;
 			
 		}
-
+		@media screen and (orientation:landscape){
+			#one .w65 {padding-top: 2%;
+		}}
 		@media (orientation:landscape) and (max-height: 801px) {
 
 			body, input, select, textarea {
